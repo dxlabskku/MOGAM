@@ -8,6 +8,8 @@
 
 
 ## Data
+![data_example](https://github.com/dxlabskku/MOGAM/assets/117570065/79aa7d44-5d5f-44b1-b375-e1297eb8673c)
+**Figure : Data Example (```YouTube``` Channel)**
 
 
 ## Experiment
