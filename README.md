@@ -8,15 +8,15 @@ We propose the Multimodal Object-oriented Graph Attention Model (MOGAM) for earl
 
 
 ## Data
-![data_example](https://github.com/dxlabskku/MOGAM/assets/117570065/79aa7d44-5d5f-44b1-b375-e1297eb8673c)
-**Figure : Data Example (```YouTube``` Channel)**
-
-Our datasets consist of three categories: daily, depression, and high-risk potential. 
+We collected vlogs from YouTube and with two hashtags: #일상브이로그 and #우울증브이로그 that represent #daily vlog and #depression vlog. Then we curated depression vlogs with clinical diagnosis to guarantee the vlogs' relevance to a medical depression diagnosis. Based on the upload time of each depression diagnosis vlog, we divided the user’s vlog list into two groups: high-risk potential vlogs, which were uploaded before depression diagnosis vlog, and depression vlogs, which were uploaded after depression diagnosis vlog. The final datasets consist of three categories: daily, depression, and high-risk potential. 
 | Dataset             | Vlogs | Average Duration |
 |---------------------|-------|------------------|
 | Daily               | 1888  | 903.39s          |
 | Depression          | 2237  | 416.03s          |
 | High-risk potential | 642   | 515.74s          |
+
+![data_example](https://github.com/dxlabskku/MOGAM/assets/117570065/79aa7d44-5d5f-44b1-b375-e1297eb8673c)
+**Figure : Data Example (```YouTube``` Channel)**
 
 ## Experiment
 Within the ```model``` folder we uploaded classification models to detect depression posts. We compared three graph neural networks (GCN, GraphSAGE, and GAT) with MOGAM. Overall, MOGAM improved the performance of the baseline models, expecially, MOGAM with GAT based model achieved the highest F1-score (0.888) among the baselines, indicating that the cross-attnetion mechanism and multimodal featuers are suitbale approach for detecting depression symptoms and patters in vlogs.
