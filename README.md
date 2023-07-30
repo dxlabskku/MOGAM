@@ -15,7 +15,7 @@ We collected vlogs from YouTube and with two hashtags: #일상브이로그 and #
 | Depression          | 2237  | 416.03s          |
 | High-risk potential | 642   | 515.74s          |
 
-![data_example](/image/data example.jpg)
+![data_example](/image/example.jpg)
 **Figure : Data Example (```YouTube``` Channel)**
 
 ## Experiment
