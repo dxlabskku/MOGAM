@@ -9,6 +9,7 @@ We propose the Multimodal Object-oriented Graph Attention Model (MOGAM) for earl
 
 ## Data
 We collected vlogs from YouTube and with two hashtags: #일상브이로그 and #우울증브이로그 that represent #daily vlog and #depression vlog. Then we curated depression vlogs with clinical diagnosis to guarantee the vlogs' relevance to a medical depression diagnosis. Based on the upload time of each depression diagnosis vlog, we divided the user’s vlog list into two groups: high-risk potential vlogs, which were uploaded before depression diagnosis vlog, and depression vlogs, which were uploaded after depression diagnosis vlog. The final datasets consist of three categories: daily, depression, and high-risk potential. 
+
 | Dataset             | Vlogs | Average Duration |
 |---------------------|-------|------------------|
 | Daily               | 1888  | 903.39s          |
