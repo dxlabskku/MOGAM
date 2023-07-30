@@ -3,7 +3,7 @@ We propose the Multimodal Object-oriented Graph Attention Model (MOGAM) for earl
 
 
 ## Workflow of our study
-![flow](/image/flow.jpg){: width="80%" height="80%"}
+![flow](/image/flow.jpg)
 **Figure : From data collcetion to classification**
 
 
@@ -15,7 +15,7 @@ We collected vlogs from YouTube and with two hashtags: #일상브이로그 and #
 | Depression          | 2237  | 416.03s          |
 | High-risk potential | 642   | 515.74s          |
 
-![data_example](https://github.com/dxlabskku/MOGAM/assets/117570065/79aa7d44-5d5f-44b1-b375-e1297eb8673c)
+![data_example](/image/data example.jpg)
 **Figure : Data Example (```YouTube``` Channel)**
 
 ## Experiment
