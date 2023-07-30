@@ -15,15 +15,4 @@ Our datasets consist of three categories: daily, depression, and high-risk poten
 
 ## Experiment
 Within the ```model``` folder we uploaded classification models to detect depression posts. We compared three graph neural networks (GCN, GraphSAGE, and GAT) with MOGAM.
-A portion of the experiment results are shown below.
-
-|                                      | Model                | Label               | Accuracy |      Precision |         Recall |       F1-Score |
-|--------------------------------------|----------------------|---------------------|---------:|---------------:|---------------:|---------------:|
-|      1. Daily versus Depression      | GAT                  | Daily               |    0.826 |          0.798 |          0.854 |          0.825 |
-|                                      |                      | Depression          |          |          0.855 |          0.799 |          0.826 |
-|                                      | MOGAM with GAT       | Daily               |    0.871 |          0.850 |          0.845 |          0.847 |
-|                                      |                      | Depression          |          | \textbf{0.887} |          0.890 | \textbf{0.888} |
-| 2. Daily versus High-risk Depression | GAT                  | Daily               |    0.823 |          0.844 |          0.930 |          0.885 |
-|                                      |                      | High-risk potential |          |          0.735 |          0.529 |          0.615 |
-|                                      | MOGAM with GAT       | Daily               |    0.996 |          0.995 | \textbf{1.000} | \textbf{0.997} |
-|                                      |                      | High-risk potential |          | \textbf{1.000} |          0.986 |          0.993 |
+MOGAM with GAT based model achieved the highest F1-score (0.888) among the baselines, indicating that the cross-attnetion mechanism and multimodal featuers are suitbale approach for detecting depression symptoms and patters in vlogs.
