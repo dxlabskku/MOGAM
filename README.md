@@ -17,7 +17,7 @@ We collected vlogs from YouTube and with two hashtags: #일상브이로그 and #
 | High-risk potential | 326   | 515.74s          |
 
 
-![example](/example.jpg)
+![example](https://github.com/dxlabskku/MOGAM/blob/main/example.jpg)
 **Figure : Data Example (```YouTube``` Channel)**
 
 
