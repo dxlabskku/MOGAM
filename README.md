@@ -3,7 +3,7 @@ We propose the Multimodal Object-oriented Graph Attention Model (MOGAM) for earl
 
 
 ## Workflow of our study
-![flow](/flow.jpg)
+![flow](https://github.com/dxlabskku/MOGAM/blob/main/flow.jpg)
 **Figure : From data collcetion to classification**
 
 
